@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class PassangerInfo {
 	
-	private String name;
+	private String pname;
 	
 	private Long phno;
 	

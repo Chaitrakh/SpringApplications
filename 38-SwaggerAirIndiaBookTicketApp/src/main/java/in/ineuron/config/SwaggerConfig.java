@@ -18,8 +18,7 @@ public class SwaggerConfig {
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
 				.apis(RequestHandlerSelectors.basePackage("in.ineuron.rest"))
-				.paths(PathSelectors.any())
-				.build();
+				.paths(PathSelectors.any()).build();
 		}
 	
 	
