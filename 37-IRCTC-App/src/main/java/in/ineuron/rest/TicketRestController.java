@@ -44,6 +44,6 @@ public class TicketRestController {
 	@DeleteMapping("/ticket{ticketId}")
 	public ResponseEntity<String> deleteTicket(@PathVariable("ticketId") Integer ticketId) {
 		//	logic to delete ticket
-		return new ResponseEntity<String>("Ticket deleted", HttpStatus.OK);
+		return new ResponseEntity<String>("Ticket Deleted", HttpStatus.OK);
 	}
 }
