@@ -3,8 +3,8 @@ package in.ineuron.binding;
 import lombok.Data;
 
 @Data
-public class PassangerInfo {
-	
+public class PassangerInfo 
+{
 	private String pname;
 	
 	private Long phno;
